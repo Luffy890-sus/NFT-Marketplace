@@ -1,0 +1,289 @@
+@media (min-width: 0px) {
+  .footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1px 20px;
+    background-color: rgba(59, 59, 59, 1);
+    width: 100%;
+    margin-top: 40px;
+    .footer__div {
+      .footer__carte {
+        margin-top: 40px;
+        .footer__text-1 {
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin: 23px 0px 20px 0px;
+        }
+        .footer__text-2 {
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+        }
+        .footer__div-img {
+          display: flex;
+          gap: 12px;
+          margin: 15px 0px 30px 0px;
+        }
+      }
+
+      .footer__carte-2 {
+        display: grid;
+        .footer__text-3 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 35.2px;
+          margin-bottom: 20px;
+        }
+        .footer__link {
+          text-decoration: none;
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .footer__carte-3 {
+        .footer__text-4 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 35.2px;
+        }
+        .footer__text-5 {
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin: 20px 0px 20px 0px;
+        }
+        .footer__div__input {
+          input {
+            width: 315px;
+            height: 46px;
+            padding: 16px 20px 16px 20px;
+            border-radius: 20px;
+            border: none;
+            background-color: #fff;
+          }
+          .footer__bto {
+            display: flex;
+            width: 315px;
+            height: 46px;
+            padding: 20px 50px 0px 50px;
+            gap: 12px;
+            border-radius: 20px;
+            background-color: rgba(162, 89, 255, 1);
+            border: none;
+            color: #fff;
+            justify-content: center;
+            margin: 16px 0px 30px 0px;
+          }
+        }
+      }
+
+      .div {
+        width: 100%;
+        height: 2px;
+        border-radius: 20px;
+        background-color: rgba(133, 133, 132, 1);
+        margin-bottom: 20px;
+      }
+      .footer__text-6 {
+        color: rgba(204, 204, 204, 1);
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (min-width: 752px) {
+  .footer {
+    padding: 1px 50px;
+    .footer__div {
+      .footer__carte-2 {
+        display: grid;
+        .footer__text-3 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 35.2px;
+          margin-bottom: 20px;
+        }
+        .footer__link {
+          text-decoration: none;
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin-bottom: 20px;
+        }
+      }
+
+      .footer__carte-3 {
+        .footer__text-4 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 700;
+          line-height: 35.2px;
+        }
+        .footer__text-5 {
+          color: rgba(204, 204, 204, 1);
+          font-family: Work Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 22.4px;
+          margin: 20px 0px 20px 0px;
+        }
+        .footer__div__input {
+          width: 420px;
+          height: 60px;
+          border-radius: 20px;
+          display: flex;
+          margin-bottom: 30px;
+
+          input {
+            width: 100%;
+            height: 60px;
+            padding: 16px 20px 16px 20px;
+            border-radius: 20px;
+            border: none;
+            background-color: #fff;
+          }
+          .footer__bto {
+            display: flex;
+            width: 40%;
+            height: 60px;
+            padding: 20px 50px 0px 50px;
+            gap: 12px;
+            border-radius: 20px;
+            background-color: rgba(162, 89, 255, 1);
+            border: none;
+            color: #fff;
+            justify-content: center;
+            margin: 0px 0px 0px 0px;
+          }
+        }
+      } 
+    }
+    .div {
+        width: 100%;
+        height: 2px;
+        border-radius: 20px;
+        background-color: rgba(133, 133, 132, 1);
+        margin-bottom: 20px;
+      }
+      .footer__text-6 {
+        color: rgba(204, 204, 204, 1);
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        margin-bottom: 40px;
+        text-align: left;
+      }
+  }
+}
+
+@media (min-width: 1144px) {
+    .footer {
+      padding: 1px 50px;
+      .footer__div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .footer__carte{
+            margin-top: 0px;
+        }
+
+        .footer__carte-2 {
+          display: grid;
+          .footer__text-3 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 35.2px;
+            margin-bottom: 20px;
+          }
+          .footer__link {
+            text-decoration: none;
+            color: rgba(204, 204, 204, 1);
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            margin-bottom: 20px;
+          }
+        }
+  
+        .footer__carte-3 {
+          .footer__text-4 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 35.2px;
+          }
+          .footer__text-5 {
+            color: rgba(204, 204, 204, 1);
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            margin: 20px 0px 20px 0px;
+          }
+          .footer__div__input {
+            width: 420px;
+            height: 60px;
+            border-radius: 20px;
+            display: flex;
+            margin-bottom: 30px;
+  
+            input {
+              width: 100%;
+              height: 60px;
+              padding: 16px 20px 16px 20px;
+              border-radius: 20px;
+              border: none;
+              background-color: #fff;
+            }
+            .footer__bto {
+              display: flex;
+              width: 40%;
+              height: 60px;
+              padding: 20px 50px 0px 50px;
+              gap: 12px;
+              border-radius: 20px;
+              background-color: rgba(162, 89, 255, 1);
+              border: none;
+              color: #fff;
+              justify-content: center;
+              margin: 0px 0px 0px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,373 @@
+@media (max-width: 600px) {
+  .section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    .section__div {
+      margin-top: 95px;
+      .section__text-1 {
+        color: #fff;
+        font-family: Work Sans;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 39.2px;
+      }
+      .section__text-2 {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #fff;
+      }
+      .section__carte {
+        width: 315px;
+        height: 315px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 20px;
+        margin: 40px 0px 40px 0px;
+        .section__img {
+          width: 315px;
+        }
+        .section__text-3 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 600;
+          margin: 22px 0px 10px 20px;
+        }
+        .section__content {
+          display: flex;
+          margin: 0px 0px 22px 20px;
+          gap: 12px;
+          .section__text-4 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+      .section__btn {
+        width: 315px;
+        height: 60px;
+        padding: 0px 50px 0px 50px;
+        gap: 12px;
+        border-radius: 20px;
+        background-color: rgba(162, 89, 255, 1);
+        border: none;
+        color: #fff;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 40px;
+      }
+      .section__content-2 {
+        display: flex;
+        gap: 50px;
+        .section__div-text {
+          .section__text-5 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 5px;
+          }
+          .section__text-6 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .section__div-2{
+        display: none;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .section {
+    .section__div {
+      display: none;
+    }
+
+    .section__div-2 {
+      display: flex;
+      margin-top: 95px;
+      justify-content: space-between;
+      .section__content {
+        .section__text-1 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 37px;
+          font-weight: 600;
+          line-height: 39.2px;
+        }
+        .section__text-2 {
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+            color: #fff;
+            margin: 20px 0px 20px 0px;
+          }
+          .section__btn {
+            width: 224px;
+            height: 60px;
+            padding: 0px 50px 0px 50px;
+            gap: 12px;
+            border-radius: 20px;
+            background-color: rgba(162, 89, 255, 1);
+            border: none;
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 40px;
+          }
+          .section__content-2 {
+            display: flex;
+            gap: 30px;
+            .section__div-text {
+              .section__text-5 {
+                color: #fff;
+                font-family: Work Sans;
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 5px;
+              }
+              .section__text-6 {
+                color: #fff;
+                font-family: Work Sans;
+                font-size: 16px;
+                font-weight: 400;
+              }
+            }
+          }
+      }
+      
+      .section__carte {
+        width: 330px;
+        height: 330px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 20px;
+        .section__img {
+          width: 330px;
+        }
+        .section__text-3 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 600;
+          margin: 22px 0px 10px 20px;
+        }
+        .section__content {
+          display: flex;
+          margin: 0px 0px 22px 20px;
+          gap: 12px;
+          .section__text-4 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 940px) {
+  .section {
+    .section__div {
+      display: none;
+    }
+
+    .section__div-2 {
+      display: flex;
+      margin-top: 95px;
+      justify-content: space-between;
+      padding: 0px 120px;
+      .section__content {
+        .section__text-1 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 67px;
+          font-weight: 600;
+          line-height: 79.2px;
+        }
+        .section__text-2 {
+            font-family: Work Sans;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 35.4px;
+            color: #fff;
+            margin: 20px 0px 20px 0px;
+          }
+          .section__btn {
+            width: 224px;
+            height: 60px;
+            padding: 0px 50px 0px 50px;
+            gap: 12px;
+            border-radius: 20px;
+            background-color: rgba(162, 89, 255, 1);
+            border: none;
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 40px;
+          }
+          .section__content-2 {
+            display: flex;
+            gap: 30px;
+            .section__div-text {
+              .section__text-5 {
+                color: #fff;
+                font-family: Work Sans;
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 5px;
+              }
+              .section__text-6 {
+                color: #fff;
+                font-family: Work Sans;
+                font-size: 16px;
+                font-weight: 400;
+              }
+            }
+          }
+      }
+      
+      .section__carte {
+        width: 510px;
+        height: 510px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 20px;
+        .section__img {
+          width: 510px;
+        }
+        .section__text-3 {
+          color: #fff;
+          font-family: Work Sans;
+          font-size: 22px;
+          font-weight: 600;
+          margin: 22px 0px 10px 20px;
+        }
+        .section__content {
+          display: flex;
+          margin: 0px 0px 22px 20px;
+          gap: 12px;
+          .section__text-4 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+    .section {
+        padding: 0px 120px;
+      .section__div-2 {
+        display: flex;
+        margin-top: 140px;
+        justify-content: space-between;
+        .section__content {
+        }
+      }
+    }
+  }
+
+  @media (min-width: 12000px) {
+    .section { 
+        justify-content: center;
+
+      .section__div-2 {
+        .section__content {
+          .section__text-1 {
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 73.7px;
+          }
+          .section__text-2 {
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.2px;
+            }
+            .section__btn {
+              width: 224px;
+              height: 60px;
+              padding: 0px 50px 0px 50px;
+              gap: 12px;
+              border-radius: 20px;
+              background-color: rgba(162, 89, 255, 1);
+              border: none;
+              color: #fff;
+              font-family: Work Sans;
+              font-size: 16px;
+              font-weight: 600;
+              margin-bottom: 40px;
+            }
+            .section__content-2 {
+              display: flex;
+              gap: 70px;
+              .section__div-text {
+                .section__text-5 {
+                  color: #fff;
+                  font-family: Work Sans;
+                  font-size: 28px;
+                  font-weight: 700;
+                  margin-bottom: 5px;
+                }
+                .section__text-6 {
+                  color: #fff;
+                  font-family: Work Sans;
+                  font-size: 23px;
+                  font-weight: 400;
+                }
+              }
+            }
+        }
+        
+        .section__carte {
+          width: 510px;
+          height: 510px;
+          background-color: rgba(59, 59, 59, 1);
+          border-radius: 35px;
+          .section__img {
+            width: 510px;
+            height: 401;
+          }
+          .section__text-3 {
+            color: #fff;
+            font-family: Work Sans;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 22px 0px 22px 20px;
+          }
+          .section__content {
+            display: flex;
+            margin: 0px 0px 22px 20px;
+            gap: 12px;
+            img{
+                width: 50px;
+            }
+            .section__text-4 {
+              color: #fff;
+              font-family: Work Sans;
+              font-size: 22px;
+              font-weight: 400;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
